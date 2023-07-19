@@ -18,6 +18,17 @@
     align-items: center;
 
 }
+.lo-go {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.g-mar {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
 
 .logo img {
     height: 2rem;
@@ -142,7 +153,7 @@
 /* ralph section */
 .ralph-container {
     text-align: right;
-    width: ;
+    
 }
 
 .r-h2 {
@@ -267,6 +278,7 @@
     top: 280px;
     left: -80px;
 }
+
 /* bottom button section******* */
 .btn-bg {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -277,40 +289,96 @@
     text-align: center;
     flex-wrap: wrap;
     gap: 30px;
-    
+
 }
+
 .bottom-buttons {
     background-color: #FFF;
     border: none;
     border-radius: 1.6rem;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1 );
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 4px 8px;
     font-weight: 600;
     font-size: 1rem;
     margin-left: 15px;
 
 }
-.btm-btns {
-    
-    
-    
-}
+
+
+
 .btn-imgs {
     height: 2.5rem;
     width: 2.5rem;
     vertical-align: middle;
     margin-right: 15px;
 }
+
 /* fooooooooooooter */
 
 footer {
     background-color: #0B0223;
     color: #fff;
-    padding: 200px;
-    
+    padding: 100px;
+
 }
+
 .f-logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.f-bar {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.f-bar li {
+    list-style: none;
+}
+
+.f-bar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.f-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    /* text-align: center;
+    margin-top: 50px; */
+
+}
+
+.f-policies {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.f-policies li {
+    list-style: none;
+}
+
+.f-policies li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#f-last {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
 }
