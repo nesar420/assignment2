@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* nav styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px 5px 120px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav li .nav-li {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    margin-right: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav>ul>li>div {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    font-weight: 500;
+}
+
+.nav-links img {
+    margin-left: 10px;
+}
+
+.nav-links p {
+    margin: 0;
+}
+
+
+
+/* banner stylesss */
+
+.banner {
+    background-image: url("../images/Group-14.png");
+    background-repeat: no-repeat;
+    background-size: 40rem 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.banner-contents {
+    padding: 0px 0px 0px 100px;
+}
+
+/*  */
+
+.banner-contents h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-contents h2 {
+    font-size: 5.938rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 24px;
+
+}
+
+.banner-icons {
+    height: 19px;
+    width: 19px;
+    /* margin-left: 5px; */
+
+}
+
+.banner-para1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner-btn1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.banner-btn2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-main-img {
+    height: 35rem;
+    width: 35rem;
+    padding-right: 110px;
+}
+
+/* ralph section */
+.ralph-container {
+    text-align: right;
+    width: ;
+}
+
+.r-h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.r-p1 {
+    color: #534C64;
+}
+
+.r-para {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.r-para1 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0px;
+
+}
+
+.r-bg {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 120px;
+}
+
+.ralph-img {
+    width: 40rem;
+}
+
+/* online-games-collection styless */
+.online-games-collection {
+    padding: 50px 120px;
+}
+
+.online-games-collection h2 {
+    text-align: center;
+}
+
+.online-games-collection>p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gms-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.games-collection {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.gms-card {
+    height: 19rem;
+    width: 15rem;
+}
+
+.gms-p {
+    font-size: 0.938;
+    width: 15rem;
+    text-align: center;
+
+
+}
+
+/* Play Instantly stylesss */
+
+.play-instantly {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+}
+
+.play-contents {
+    text-align: right;
+    padding-left: 100px;
+}
+
+.play-contents>h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.greet-pi {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-i-gms {
+    position: relative;
+}
+
+.rdr2 {
+    width: 29rem;
+}
+
+.puss-in-boots {
+    width: 13rem;
+    position: absolute;
+    top: 280px;
+    left: -80px;
+}
+/* bottom button section******* */
+.btn-bg {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 80px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.bottom-buttons {
+    background-color: #FFF;
+    border: none;
+    border-radius: 1.6rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1 );
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 15px;
+
+}
+.btm-btns {
+    
+    
+    
+}
+.btn-imgs {
+    height: 2.5rem;
+    width: 2.5rem;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+/* fooooooooooooter */
+
+footer {
+    background-color: #0B0223;
+    color: #fff;
+    padding: 200px;
+    
+}
+.f-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
